@@ -1,0 +1,58 @@
+{
+  "name": "time-table",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.6.2",
+    "bootstrap-social": "^5.1.1",
+    "classnames": "^2.2.6",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.1.1",
+    "express": "^4.16.4",
+    "font-awesome": "^4.7.0",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.4",
+    "npm": "^9.2.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-moment": "^0.8.3",
+    "react-popper": "^1.0.2",
+    "react-radio-group": "^3.0.3",
+    "react-redux": "^5.1.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.3",
+    "react-sidenav": "^3.1.3",
+    "react-thunk": "^1.0.0",
+    "react-to-print": "^2.14.11",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.0.2",
+    "validator": "^13.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:5000"
+}

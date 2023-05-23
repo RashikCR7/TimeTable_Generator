@@ -1,0 +1,107 @@
+//API For register
+URL: 'http://localhost:5000/api/users/register';
+METHOD: 'POST';
+HEADER: {
+  ContentType: 'application/json';
+}
+
+BODY: {
+  {
+    name: 'shailesh';
+    email: 'shailesh@gmail.com';
+    password: 'shailesh123';
+    confirmpassword: 'shailesh123';
+  }
+}
+
+// API For Login
+URL: 'http://localhost:5000/api/users/register';
+METHOD: 'POST';
+HEADER: {
+  ContentType: 'application/json';
+}
+BODY: {
+  {
+    email: 'shailesh@gmail.com';
+    password: 'shailesh123';
+  }
+}
+
+//API For Subject
+URL: 'http://localhost:5000/api/subject/';
+METHOD: 'POST';
+HEADER: {
+  ContentType: 'application/json';
+}
+BODY: {
+  {
+    subject: 'PROGRAMMING';
+  }
+}
+
+//API For lABS
+URL: 'http://localhost:5000/api/subject/labs';
+METHOD: 'POST';
+HEADER: {
+  ContentType: 'application/json';
+}
+BODY: {
+  {
+    labname: 'PROGRAMMING';
+    numberoflabs: '4';
+  }
+}
+
+//API FOR  ADD TEACHERS
+URL: 'http://localhost:5000/api/teachersName';
+METHOD: 'POST';
+HEADER: {
+  ContentType: 'application/json';
+}
+BODY: {
+  {
+    teachersName: 'SHAILESH';
+  }
+}
+
+//API For ADD ClassSection
+URL: 'http://localhost:5000/api/classAndsec';
+METHOD: 'POST';
+HEADER: {
+  ContentType: 'application/json';
+}
+BODY: {
+  {
+    classAndsec: 'A';
+  }
+}
+
+//API For ADD Numbers of Periods
+URL: 'http://localhost:5000/api/slots/';
+METHOD: 'POST';
+HEADER: {
+  ContentType: 'application/json';
+}
+BODY: {
+  {
+    sunday: '8';
+    monday: '7';
+    tuesday: '6';
+    wednesday: '8';
+    thrusday: '6';
+    friday: '5';
+  }
+}
+
+//API For Profile
+URL: 'http://localhost:5000/api/profile';
+METHOD: 'POST';
+HEADER: {
+  ContentType: 'application/json';
+}
+BODY: {
+  {
+    institute: 'NCCS';
+    institutewebsite: 'https://www.nccs.edu.np/college';
+  }
+}
